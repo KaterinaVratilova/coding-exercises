@@ -6,7 +6,6 @@ public class MegaBytesConverter {
     printMegaBytesAndKiloBytes(5000);
   }
 
-
   public static void printMegaBytesAndKiloBytes(int kiloBytes) {
     int megaBytes = kiloBytes / 1024;
     int remainingMegaBytes = kiloBytes % 1024;
