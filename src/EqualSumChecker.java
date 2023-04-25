@@ -1,7 +1,7 @@
 public class EqualSumChecker {
 
   public static void main(String[] args) {
-    hasEqualSum(1, 1, 1);
+    System.out.println(hasEqualSum(1, 1, 1));
     hasEqualSum(1, 1, 2);
     hasEqualSum(1, -1, 0);
   }
